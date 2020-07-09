@@ -1,0 +1,186 @@
+{
+	"info": {
+		"_postman_id": "1ee3b369-7a25-4ae9-8fc5-bcb2ff9d235e",
+		"name": "task4",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "localhost:8080/getColors",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n   \"colors\":{\r\n      \"color\":\"white\",\r\n      \"category\":\"hue\",\r\n      \"type\":\"primary\",\r\n      \"code\":{\r\n         \"rgba\":\"255,255,255,0\",\r\n         \"hex\":\"#111\"\r\n      }\r\n   },\r\n   \"thumbnail\":{\r\n      \"url\":\"images/thumbnails/00021.jpg\",\r\n      \"width\":32,\r\n      \"height\":32\r\n   }\r\n}"
+				},
+				"url": {
+					"raw": "localhost:8080/getColors",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"getColors"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "localhost:8080/getColors",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n   \"colors\":{\r\n      \"color\":\"white\",\r\n      \"category\":\"hue\",\r\n      \"type\":\"primary\",\r\n      \"code\":{\r\n         \"rgba\":\"255,255,255,0\",\r\n         \"hex\":\"#111\"\r\n      }\r\n   },\r\n   \"thumbnail\":{\r\n      \"url\":\"images/thumbnails/00021.jpg\",\r\n      \"width\":32,\r\n      \"height\":32\r\n   }\r\n}"
+				},
+				"url": {
+					"raw": "localhost:8080/getColors",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"getColors"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "localhost:8080/getColors",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n   \"colors\":{\r\n      \"color\":\"black\",\r\n      \"category\":\"hue\",\r\n      \"type\":\"primary\",\r\n      \"code\":{\r\n         \"rgba\":\"255,255,255,1\",\r\n         \"hex\":\"#000\"\r\n      }\r\n   },\r\n   \"thumbnail\":{\r\n      \"url\":\"images/thumbnails/0001.jpg\",\r\n      \"width\":32,\r\n      \"height\":32\r\n   }\r\n}"
+				},
+				"url": {
+					"raw": "localhost:8080/getColors",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"getColors"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "localhost:8080/getColors",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n   \"colors\":{\r\n      \"color\":\"black\",\r\n      \"category\":\"hue\",\r\n      \"type\":\"primary\",\r\n      \"code\":{\r\n         \"rgba\":\"255,255,255,1\",\r\n         \"hex\":\"#000\"\r\n      }\r\n   },\r\n   \"thumbnail\":{\r\n      \"url\":\"images/thumbnails/0001.jpg\",\r\n      \"width\":32,\r\n      \"height\":32\r\n   }\r\n}"
+				},
+				"url": {
+					"raw": "localhost:8080/getColors",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"getColors"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "localhost:8080/getProfiles",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n   \"clients\":{\r\n      \"id\":\"098uyt432rew\",\r\n      \"isActive\":\"false\",\r\n      \"age\":22,\r\n      \"name\":\"binbin\",\r\n      \"gender\":\"male\",\r\n      \"company\":\"yukiub\",\r\n      \"email\":\"binbin@yukiub.com\",\r\n      \"phone\":\"+86 (139) 7511-7390\",\r\n      \"address\":{\r\n         \"street\":\"renran St\",\r\n         \"city\":\"Hongkong\",\r\n         \"state\":\"China\",\r\n         \"zip\":\"72020\"\r\n      }\r\n   }\r\n}"
+				},
+				"url": {
+					"raw": "localhost:8080/getProfiles",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"getProfiles"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "localhost:8080/getProfiles",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n   \"clients\":{\r\n      \"id\":\"098uyt432rew\",\r\n      \"isActive\":\"false\",\r\n      \"age\":22,\r\n      \"name\":\"binbin\",\r\n      \"gender\":\"male\",\r\n      \"company\":\"yukiub\",\r\n      \"email\":\"binbin@yukiub.com\",\r\n      \"phone\":\"+86 (139) 7511-7390\",\r\n      \"address\":{\r\n         \"street\":\"renran St\",\r\n         \"city\":\"Hongkong\",\r\n         \"state\":\"China\",\r\n         \"zip\":\"72020\"\r\n      }\r\n   }\r\n}"
+				},
+				"url": {
+					"raw": "localhost:8080/getProfiles",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"getProfiles"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "localhost:8080/getProfiles",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n   \"clients\":{\r\n      \"id\":\"59761c23b30d971669fb42ff\",\r\n      \"isActive\":\"true\",\r\n      \"age\":36,\r\n      \"name\":\"Dunlap Hubbard\",\r\n      \"gender\":\"male\",\r\n      \"company\":\"CEDWARD\",\r\n      \"email\":\"dunlaphubbard@cedward.com\",\r\n      \"phone\":\"+1 (890) 543-2508\",\r\n      \"address\":{\r\n         \"street\":\"6649 N Blue Gum St\",\r\n         \"city\":\"New Orleans\",\r\n         \"state\":\"LA\",\r\n         \"zip\":\"70116\"\r\n      }\r\n   }\r\n}"
+				},
+				"url": {
+					"raw": "localhost:8080/getProfiles",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"getProfiles"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "localhost:8080/getProfiles",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n   \"clients\":{\r\n      \"id\":\"59761c23b30d971669fb42ff\",\r\n      \"isActive\":\"true\",\r\n      \"age\":36,\r\n      \"name\":\"Dunlap Hubbard\",\r\n      \"gender\":\"male\",\r\n      \"company\":\"CEDWARD\",\r\n      \"email\":\"dunlaphubbard@cedward.com\",\r\n      \"phone\":\"+1 (890) 543-2508\",\r\n      \"address\":{\r\n         \"street\":\"6649 N Blue Gum St\",\r\n         \"city\":\"New Orleans\",\r\n         \"state\":\"LA\",\r\n         \"zip\":\"70116\"\r\n      }\r\n   }\r\n}"
+				},
+				"url": {
+					"raw": "localhost:8080/getProfiles",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"getProfiles"
+					]
+				}
+			},
+			"response": []
+		}
+	],
+	"protocolProfileBehavior": {}
+}
